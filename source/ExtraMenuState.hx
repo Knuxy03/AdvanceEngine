@@ -23,7 +23,7 @@ import flixel.input.keyboard.FlxKey;
 
 using StringTools;
 
-class MainMenuState extends MusicBeatState
+class ExtraMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '(PE 0.5.1)'; //This is also used for Discord RPC
 	public static var curSelected:Int = 0;
@@ -33,11 +33,9 @@ class MainMenuState extends MusicBeatState
 	private var camAchievement:FlxCamera;
 	
 	var optionShit:Array<String> = [
-		'story_mode',
-		'freeplay',
-		'credits',
-		'options',
-		'extras',
+		#if MODS_ALLOWED 'mods', #end
+		#if ACHIEVEMENTS_ALLOWED 'awards', #end
+		#if !switch 'donate', #end
 	];
 
 	public static var firstStart:Bool = true;
@@ -123,7 +121,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.scrollFactor.set();
 			menuItem.antialiasing = FlxG.save.data.antialiasing;
 			if (firstStart)
-				FlxTween.tween(menuItem, {y: 60 + (i * 130)}, 1 + (i * 0.25), {
+				FlxTween.tween(menuItem, {y: 60 + (i * 200)}, 1 + (i * 0.25), {
 					ease: FlxEase.expoInOut,
 					onComplete: function(flxTween:FlxTween)
 					{
@@ -132,7 +130,7 @@ class MainMenuState extends MusicBeatState
 					}
 				});
 			else
-				menuItem.y = 60 + (i * 130);
+				menuItem.y = 60 + (i * 200);
 		}
 
 		firstStart = false;
@@ -204,7 +202,7 @@ class MainMenuState extends MusicBeatState
 			{
 				selectedSomethin = true;
 				FlxG.sound.play(Paths.sound('cancelMenu'));
-				MusicBeatState.switchState(new TitleState());
+				MusicBeatState.switchState(new MainMenuState());
 			}
 
 			if (controls.ACCEPT)
@@ -240,18 +238,12 @@ class MainMenuState extends MusicBeatState
 
 								switch (daChoice)
 								{
-									case 'story_mode':
-										MusicBeatState.switchState(new StoryMenuState());
-									case 'freeplay':
-										MusicBeatState.switchState(new FreeplayState());
+									#if MODS_ALLOWED
+									case 'mods':
+										MusicBeatState.switchState(new ModsMenuState());
+									#end
 									case 'awards':
 										MusicBeatState.switchState(new AchievementsMenuState());
-									case 'credits':
-										MusicBeatState.switchState(new CreditsState());
-									case 'options':
-										LoadingState.loadAndSwitchState(new options.OptionsState());
-									case 'extras':
-										MusicBeatState.switchState(new ExtraMenuState());
 								}
 							});
 						}
