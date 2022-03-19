@@ -1168,6 +1168,7 @@ class PlayState extends MusicBeatState
 		RecalculateRating();
 
 		//PRECACHING MISS SOUNDS BECAUSE I THINK THEY CAN LAG PEOPLE AND FUCK THEM UP IDK HOW HAXE WORKS
+		if(ClientPrefs.hitsoundVolume > 0) CoolUtil.precacheSound('hitsound');
 		CoolUtil.precacheSound('missnote1');
 		CoolUtil.precacheSound('missnote2');
 		CoolUtil.precacheSound('missnote3');
@@ -3307,7 +3308,7 @@ for (key => value in luaShaders)
 
 				if (storyPlaylist.length <= 0)
 				{
-					FlxG.sound.playMusic(Paths.music('freakyMenu'));
+					FlxG.sound.playMusic(Paths.music(Paths.formatToSongPath(ClientPrefs.menuMusic)));
 
 					cancelMusicFadeTween();
 					if(FlxTransitionableState.skipNextTransIn) {
@@ -3376,7 +3377,7 @@ for (key => value in luaShaders)
 					CustomFadeTransition.nextCamera = null;
 				}
 				MusicBeatState.switchState(new FreeplayState());
-				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				FlxG.sound.playMusic(Paths.music(Paths.formatToSongPath(ClientPrefs.menuMusic)));
 				changedDifficulty = false;
 			}
 			transitioning = true;
@@ -3947,6 +3948,11 @@ for (key => value in luaShaders)
 		
 		if (!note.wasGoodHit)
 		{
+			if (ClientPrefs.hitsoundVolume > 0 && !note.hitsoundDisabled)
+				{
+					FlxG.sound.play(Paths.sound('hitsound'), ClientPrefs.hitsoundVolume);
+				}
+	
 			if(cpuControlled && (note.ignoreNote || note.hitCausesMiss)) return;
 
 			if(note.hitCausesMiss) {
