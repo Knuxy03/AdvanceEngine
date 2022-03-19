@@ -113,7 +113,7 @@ class VisualsUISubState extends BaseOptionsMenu
 			'menuMusic',
 			'string',
 			'Vanilla',
-			['None', 'Vanilla', 'Remix']);
+			['Vanilla', 'Remix']);
 		addOption(option);
 		option.onChange = onChangeMenuMusic;
 
