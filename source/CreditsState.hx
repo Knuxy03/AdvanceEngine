@@ -83,6 +83,10 @@ class CreditsState extends MusicBeatState
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['Knuxy Engine Team'],
 			['KnuxyDev',		'knux',		'Main Programmer of Knuxy Engine',							'https://www.youtube.com/channel/UCeD3HNWwlwA5FEaCgJab7aA',	'0015B2'],
+			[''],
+			['Special Thanks'],
+			['Psych Engine GitHub',		'github',		'For the Code Support',							'https://github.com/ShadowMario/FNF-PsychEngine/discussions',	'0015B2'],
+			[''],
 			['Original Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',							'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',						'https://twitter.com/RiverOaken',		'C30085'],

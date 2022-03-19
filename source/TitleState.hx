@@ -244,7 +244,7 @@ class TitleState extends MusicBeatState
 			// music.play();
 
 			if(FlxG.sound.music == null) {
-				FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
+				FlxG.sound.playMusic(Paths.music(Paths.formatToSongPath(ClientPrefs.menuMusic)), 0);
 
 				FlxG.sound.music.fadeIn(4, 0, 0.7);
 			}
@@ -645,14 +645,31 @@ class TitleState extends MusicBeatState
 
 	var skippedIntro:Bool = false;
 	function skipIntro():Void
-	{
-		if (!skippedIntro)
 		{
-			remove(ngSpr);
-
-			FlxG.camera.flash(FlxColor.WHITE, 4);
-			remove(credGroup);
-			skippedIntro = true;
+			if (!skippedIntro)
+			{
+				remove(ngSpr);
+	
+				FlxG.camera.flash(FlxColor.WHITE, 4);
+				remove(credGroup);
+	
+				FlxTween.tween(logoBl, {y: -100}, 1.4, {ease: FlxEase.expoInOut});
+	
+				logoBl.angle = -4;
+	
+				new FlxTimer().start(0.01, function(tmr:FlxTimer)
+				{
+					if (logoBl.angle == -4)
+						FlxTween.angle(logoBl, logoBl.angle, 4, 4, {ease: FlxEase.quartInOut});
+					if (logoBl.angle == 4)
+						FlxTween.angle(logoBl, logoBl.angle, -4, 4, {ease: FlxEase.quartInOut});
+				}, 0);
+	
+				// It always bugged me that it didn't do this before.
+				// Skip ahead in the song to the drop.
+				FlxG.sound.music.time = 9400; // 9.4 seconds
+	
+				skippedIntro = true;
+			}
 		}
 	}
-}
