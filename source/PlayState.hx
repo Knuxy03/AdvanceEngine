@@ -67,6 +67,9 @@ using StringTools;
 
 class PlayState extends MusicBeatState
 {
+	var bgBlack:FlxSprite;
+	var bgBlackOpponent:FlxSprite;
+
 	public static var STRUM_X = 42;
 	public static var STRUM_X_MIDDLESCROLL = -278;
 
@@ -326,6 +329,26 @@ class PlayState extends MusicBeatState
 		FlxG.cameras.reset(camGame);
 		FlxG.cameras.add(camHUD);
 		FlxG.cameras.add(camOther);
+
+		bgBlack = new FlxSprite(0, 0).makeGraphic(110 * 4 + 50, FlxG.height * 2);
+		bgBlack.alpha = ClientPrefs.bgOpacity;
+		bgBlack.color = FlxColor.BLACK;
+		bgBlack.scrollFactor.set();
+		bgBlack.cameras = [camHUD];
+
+		bgBlackOpponent = new FlxSprite(0, 0).makeGraphic(110 * 4 + 50, FlxG.height * 2);
+		bgBlackOpponent.alpha = ClientPrefs.bgOpacity;
+		bgBlackOpponent.color = FlxColor.BLACK;
+		bgBlackOpponent.scrollFactor.set();
+		bgBlackOpponent.cameras = [camHUD];
+
+		if (ClientPrefs.bgShadow)
+		{
+			add(bgBlack);
+		}
+		bgBlack.alpha = 0;
+		bgBlackOpponent.alpha = 0;
+
 		grpNoteSplashes = new FlxTypedGroup<NoteSplash>();
 
 		FlxCamera.defaultCameras = [camGame];
@@ -1629,6 +1652,15 @@ class PlayState extends MusicBeatState
 				//if(ClientPrefs.middleScroll) opponentStrums.members[i].visible = false;
 			}
 
+			if (ClientPrefs.bgShadow)
+			{
+				bgBlack.x = playerStrums.members[0].x - 25;
+				bgBlackOpponent.x = opponentStrums.members[0].x - 25;
+	
+				bgBlack.screenCenter(Y);
+				bgBlackOpponent.screenCenter(Y);
+			}
+
 			startedCountdown = true;
 			Conductor.songPosition = 0;
 			Conductor.songPosition -= Conductor.crochet * 5;
@@ -1686,6 +1718,23 @@ class PlayState extends MusicBeatState
 				switch (swagCounter)
 				{
 					case 0:
+						if (ClientPrefs.bgShadow)
+						{
+							FlxTween.tween(bgBlack, {alpha: ClientPrefs.bgOpacity}, 0.5, {
+								ease: FlxEase.quadInOut,
+								onComplete: function(tween:FlxTween)
+								{
+									bgBlack.alpha = ClientPrefs.bgOpacity;
+								}
+							});
+							FlxTween.tween(bgBlackOpponent, {alpha: ClientPrefs.bgOpacity}, 0.5, {
+								ease: FlxEase.quadInOut,
+								onComplete: function(tween:FlxTween)
+								{
+									bgBlackOpponent.alpha = ClientPrefs.bgOpacity;
+								}
+							});
+						}
 						FlxG.sound.play(Paths.sound('intro3' + introSoundsSuffix), 0.6);
 					case 1:
 						countdownReady = new FlxSprite().loadGraphic(Paths.image(introAlts[0]));

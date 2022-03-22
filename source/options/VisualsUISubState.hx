@@ -70,6 +70,17 @@ class VisualsUISubState extends BaseOptionsMenu
 			true);
 		addOption(option);
 
+		var option:Option = new Option('Lane Underlay', "If checked, adds an underlay for better reading", 'bgShadow', 'bool', false);
+		addOption(option);
+		
+		var option:Option = new Option('Lane Underlay Opacity', 'Changes the opacity of the underlay', 'bgOpacity', 'percent', .5);
+		option.scrollSpeed = 1.5;
+		option.minValue = 0;
+		option.changeValue = 0.1;
+		option.maxValue = 1;
+		option.decimals = 1;
+		addOption(option);
+		
 		var option:Option = new Option('Score Text Zoom on Hit',
 			"If unchecked, disables the Score text zooming\neverytime you hit a note.",
 			'scoreZoom',
