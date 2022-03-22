@@ -25,7 +25,7 @@ using StringTools;
 
 class ExtraMenuState extends MusicBeatState
 {
-	public static var psychEngineVersion:String = '(PE 0.5.1)'; //This is also used for Discord RPC
+	public static var psychEngineVersion:String = 'Beta (PE 0.5.1)'; //This is also used for Discord RPC
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -137,7 +137,7 @@ class ExtraMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollow, null, 0.60 * (60 / FlxG.save.data.fpsCap));
 
-		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Knuxy Engine " + psychEngineVersion, 12);
+		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Advance Engine " + psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
