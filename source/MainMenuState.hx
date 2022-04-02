@@ -139,6 +139,10 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollow, null, 0.60 * (60 / FlxG.save.data.fpsCap));
 
+		FlxG.camera.zoom = 3;
+		FlxTween.tween(FlxG.camera, {zoom: 1}, 1.1, {ease: FlxEase.expoInOut});
+		FlxTween.tween(bg, {angle: 0}, 1, {ease: FlxEase.quartInOut});
+
 		var versionShit:FlxText = new FlxText(12, FlxG.height - 44, 0, "Advance Engine " + psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
@@ -224,8 +228,8 @@ class MainMenuState extends MusicBeatState
 					{
 						if (curSelected != spr.ID)
 						{
-							FlxTween.tween(spr, {alpha: 0}, 0.4, {
-								ease: FlxEase.quadOut,
+							FlxTween.tween(spr, {x: -600}, 0.6, {
+								ease: FlxEase.backIn,
 								onComplete: function(twn:FlxTween)
 								{
 									spr.kill();

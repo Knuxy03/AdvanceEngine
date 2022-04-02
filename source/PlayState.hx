@@ -2460,11 +2460,11 @@ class PlayState extends MusicBeatState
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 		// FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);
 
-		iconP1.centerOffsets();
-        iconP2.centerOffsets();
+		iconP1.setGraphicSize(Std.int(FlxMath.lerp(iconP1.width, 150, 0.09)));
+		iconP2.setGraphicSize(Std.int(FlxMath.lerp(iconP2.width, 150, 0.09)));
 
-        iconP1.updateHitbox();
-        iconP2.updateHitbox();
+		iconP1.updateHitbox();
+		iconP2.updateHitbox();
 
 		var iconOffset:Int = 26;
 
@@ -2473,16 +2473,12 @@ class PlayState extends MusicBeatState
 
 		if (health > 2)
 			health = 2;
-
 		if (healthBar.percent < 20)
 			iconP1.animation.curAnim.curFrame = 1;
-		else
+		else if (healthBar.percent > 20 && healthBar.percent < 80)
 			iconP1.animation.curAnim.curFrame = 0;
-
-		if (healthBar.percent > 80)
-			iconP2.animation.curAnim.curFrame = 1;
-		else
-			iconP2.animation.curAnim.curFrame = 0;
+		else if (healthBar.percent > 80)
+			iconP1.animation.curAnim.curFrame = 0;
 
 		if (FlxG.keys.anyJustPressed(debugKeysCharacter) && !endingSong && !inCutscene) {
 			persistentUpdate = false;
@@ -3357,7 +3353,7 @@ for (key => value in luaShaders)
 
 				if (storyPlaylist.length <= 0)
 				{
-					FlxG.sound.playMusic(Paths.music(Paths.formatToSongPath(ClientPrefs.menuMusic)));
+					FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 
 					cancelMusicFadeTween();
 					if(FlxTransitionableState.skipNextTransIn) {
@@ -3426,7 +3422,7 @@ for (key => value in luaShaders)
 					CustomFadeTransition.nextCamera = null;
 				}
 				MusicBeatState.switchState(new FreeplayState());
-				FlxG.sound.playMusic(Paths.music(Paths.formatToSongPath(ClientPrefs.menuMusic)));
+				FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 				changedDifficulty = false;
 			}
 			transitioning = true;
@@ -4399,31 +4395,6 @@ for (key => value in luaShaders)
 		iconP2.updateHitbox();
 
 		if (curBeat % gfSpeed == 0 && !gf.stunned && gf.animation.curAnim.name != null && !gf.animation.curAnim.name.startsWith("sing"))
-			
-			var funny:Float = (healthBar.percent * 0.01) + 0.01;
-
-		//health icon bounce but epic
-		if (curBeat % gfSpeed == 0) {
-			curBeat % (gfSpeed * 2) == 0 ? {
-				iconP1.scale.set(1.1, 0.8);
-				iconP2.scale.set(1.1, 1.3);
-
-				FlxTween.angle(iconP1, -15, 0, Conductor.crochet / 1300 * gfSpeed, {ease: FlxEase.quadOut});
-				FlxTween.angle(iconP2, 15, 0, Conductor.crochet / 1300 * gfSpeed, {ease: FlxEase.quadOut});
-			} : {
-				iconP1.scale.set(1.1, 1.3);
-				iconP2.scale.set(1.1, 0.8);
-
-				FlxTween.angle(iconP2, -15, 0, Conductor.crochet / 1300 * gfSpeed, {ease: FlxEase.quadOut});
-				FlxTween.angle(iconP1, 15, 0, Conductor.crochet / 1300 * gfSpeed, {ease: FlxEase.quadOut});
-			}
-
-			FlxTween.tween(iconP1, {'scale.x': 1, 'scale.y': 1}, Conductor.crochet / 1250 * gfSpeed, {ease: FlxEase.quadOut});
-			FlxTween.tween(iconP2, {'scale.x': 1, 'scale.y': 1}, Conductor.crochet / 1250 * gfSpeed, {ease: FlxEase.quadOut});
-
-			iconP1.updateHitbox();
-			iconP2.updateHitbox();
-		}
 		{
 			gf.dance();
 		}

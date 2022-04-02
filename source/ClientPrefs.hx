@@ -31,8 +31,6 @@ class ClientPrefs {
 	public static var bgShadow:Bool = false;
 	public static var bgOpacity:Float = .5;
 	public static var hitsoundVolume:Float = 0;
-	public static var pauseMusic:String = 'Tea Time';
-	public static var menuMusic:String = 'Vanilla';
 	public static var gameplaySettings:Map<String, Dynamic> = [
 		'scrollspeed' => 1.0,
 		'scrolltype' => 'multiplicative', 
@@ -127,8 +125,6 @@ class ClientPrefs {
 		FlxG.save.data.controllerMode = controllerMode;
 		FlxG.save.data.bgShadow = bgShadow;
 		FlxG.save.data.hitsoundVolume = hitsoundVolume;
-		FlxG.save.data.pauseMusic = pauseMusic;
-		FlxG.save.data.menuMusic = menuMusic;
 	
 		FlxG.save.flush();
 
@@ -235,12 +231,6 @@ class ClientPrefs {
 		}
 		if(FlxG.save.data.hitsoundVolume != null) {
 			hitsoundVolume = FlxG.save.data.hitsoundVolume;
-		}
-		if(FlxG.save.data.pauseMusic != null) {
-			pauseMusic = FlxG.save.data.pauseMusic;
-		}	
-		if(FlxG.save.data.menuMusic != null) {
-			menuMusic = FlxG.save.data.menuMusic;
 		}
 		if(FlxG.save.data.gameplaySettings != null)
 		{
