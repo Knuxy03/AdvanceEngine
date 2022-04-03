@@ -81,18 +81,16 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
-			['Knuxy Engine Team'],
-			['KnuxyDev',		'knux',		'Main Programmer of Knuxy Engine',							'https://www.youtube.com/channel/UCeD3HNWwlwA5FEaCgJab7aA',	'0015B2'],
+			['Advance Engine Team'],
+			['KnuxyDev',		'knux',		'Main Programmer of Advance Engine',							'https://www.youtube.com/channel/UCeD3HNWwlwA5FEaCgJab7aA',	'0015B2'],
 			[''],
 			['Special Thanks'],
-			['Psych Engine GitHub',		'github',		'For the Code Support',							'https://github.com/ShadowMario/FNF-PsychEngine/discussions',	'0015B2'],
+			['Coming soon.',		'icon',		'still nothing lol',							'https://github.com/ShadowMario/FNF-PsychEngine/discussions',	'0015B2'],
 			[''],
 			['Original Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',							'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',						'https://twitter.com/RiverOaken',		'C30085'],
 			['shubs',				'shubs',			'Additional Programmer of Psych Engine',					'https://twitter.com/yoshubs',			'279ADC'],
-			[''],
-			['Former Engine Members'],
 			['bb-panzu',			'bb-panzu',			'Ex-Programmer of Psych Engine',							'https://twitter.com/bbsub3',			'389A58'],
 			[''],
 			['Engine Contributors'],
