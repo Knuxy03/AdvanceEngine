@@ -1,0 +1,8 @@
+Unlike UISwing or ScreenSwing, this
+only makes the camera swing like a ship.
+
+
+Value1 = How much the screen swings
+before going to the other direction
+
+Value2 = How long it takes
