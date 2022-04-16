@@ -1,0 +1,10 @@
+[178[ [179[ [223[ [216[ |Breakfast| *100* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:senpai: !default! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~         Okay, now let me check your teeth
+:bf: !default! [Funkin[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~            Beap bop
+:senpai: !surprised! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic_loud# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~  What?! Again
+:senpai: !bruh! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~            Ugh fine, but only one more time       
+:senpai: !weird! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~           Okay BF?
+:bf: !happy! [Funkin[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~              Bep!
+:gf-pixel: !bruh! [Funkin[ ]42] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~         Seriously bf? I thought you wanted to have a tooth extracted
+
+       

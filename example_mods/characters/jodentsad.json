@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-25,
+				-13
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Mad Jodent NOTE LEFT",
+			"indices": []
+		},
+		{
+			"offsets": [
+				215,
+				-80
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Mad Jodent Down Note",
+			"indices": []
+		},
+		{
+			"offsets": [
+				20,
+				27
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Mad Jodent Up note",
+			"indices": []
+		},
+		{
+			"offsets": [
+				60,
+				5
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Mad Jodent Note Right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Mad Jodent Idle Dance",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/jodentsad",
+	"position": [
+		0,
+		250
+	],
+	"healthicon": "jodentmad",
+	"flip_x": true,
+	"healthbar_colors": [
+		240,
+		240,
+		240
+	],
+	"camera_position": [
+		-150,
+		50
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

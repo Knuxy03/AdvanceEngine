@@ -1,0 +1,11 @@
+JONI DENTA: ok done
+BF: bob
+JONI DENTA: you just don't clean your teeth
+BF: beep bop skeabob
+JONI DENTA: oh you eat mostly sweet sweets.
+BF: bep boop
+JONI DENTA: okay do you want to rap again with me?
+BF: bep
+JONI DENTA: okay
+
+this is an unused dialog, if you want to make an expression please create your own expression

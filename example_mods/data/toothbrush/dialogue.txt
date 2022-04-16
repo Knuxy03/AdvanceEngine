@@ -1,0 +1,27 @@
+[178[ [179[ [223[ [216[ |Lunchbox| *100* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:bf: !relaxed! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~                 beep bop
+:gf-pixel: !surprised! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~          your teeth is hurt?
+:gf-pixel: !happy! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~              let's find a Dentist's Clinic.
+:bf: !sweating! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~                bop
+:gf-pixel: !default! [Funkin[ ]32] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~            look, there's a Dentist's Clinic. let's go there
+:bf: !weird! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~                   beep!
+:gf-pixel: !why! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~                -
+:senpai: !default! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~              hello can I help you?
+:bf: !worried! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~                 beap boop
+:senpai: !weird! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~                oh, your teeth is hurt?
+:bf: !default! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~                 beabop skebob
+:bf: !smile! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~                   btw, skdeep boop bap beep?
+:senpai: !smile! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~                Huh? You want Rap battle with me?
+:senpai: !fear! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~                 EEHhhh k.
+:senpai: !happy! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~                After that, i will check your teeth
+:bf: !happy! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~                   beep!
+
+
+
+
+
+
+
+
+
+

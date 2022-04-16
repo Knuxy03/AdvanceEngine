@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Cutscene1.png"><SubTexture name="Cutscene1 Cut10000" x="0" y="0" width="1439" height="815" frameX="0" frameY="0" frameWidth="1439" frameHeight="815" />
+<SubTexture name="Cutscene1 Cut20000" x="1439" y="0" width="1448" height="819" frameX="0" frameY="0" frameWidth="1448" frameHeight="819" />
+<SubTexture name="Cutscene1 Cut30000" x="0" y="819" width="1439" height="813" frameX="0" frameY="0" frameWidth="1439" frameHeight="813" />
+<SubTexture name="Cutscene1 Cut40000" x="1439" y="819" width="1449" height="821" frameX="0" frameY="0" frameWidth="1449" frameHeight="821" />
+<SubTexture name="Cutscene1 Cut50000" x="0" y="1640" width="1439" height="816" frameX="0" frameY="0" frameWidth="1439" frameHeight="816" />
+</TextureAtlas>

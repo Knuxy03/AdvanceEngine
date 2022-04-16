@@ -1,0 +1,116 @@
+{
+	"dialogue": [
+		{
+			"expression": "Cut1",
+			"text": "Beep bop",
+			"boxState": "normal",
+			"speed": 0.05,
+			"portrait": "c1"
+		},
+		{
+			"expression": "talk",
+			"text": "What BF? your teeth is hurt?",
+			"boxState": "normal",
+			"portrait": "c1",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "Bap bap",
+			"boxState": "normal",
+			"portrait": "c1",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "Let's find a closest Clinic.",
+			"boxState": "normal",
+			"portrait": "c1",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "bop",
+			"boxState": "normal",
+			"portrait": "c1",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "-",
+			"boxState": "normal",
+			"portrait": "c1",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "Look! There's a Clinic. Let's go there",
+			"boxState": "normal",
+			"portrait": "c2",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "beep!",
+			"boxState": "normal",
+			"portrait": "c2",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "-",
+			"boxState": "normal",
+			"portrait": "c2",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "Hello can I help you?",
+			"boxState": "normal",
+			"portrait": "c3",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "gf: Hello, my BF teeth is hurt, can u help him get tooth extracted",
+			"boxState": "normal",
+			"portrait": "c3",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "Beap boop",
+			"boxState": "normal",
+			"portrait": "c3",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "Oh, so your teeth is hurt?",
+			"boxState": "normal",
+			"portrait": "c3",
+			"speed": 0.05
+		},
+		{
+			"expression": "talk",
+			"text": "Beabop skebob",
+			"boxState": "normal",
+			"portrait": "c3",
+			"speed": 0.05
+		},
+		{
+			"speed": 0.05,
+			"portrait": "c3",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Btw, skdeep boop bap beep?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "c3",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Huh? You want Rap battle with me?"
+		}
+	]
+}

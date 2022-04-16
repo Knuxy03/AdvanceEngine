@@ -1,0 +1,57 @@
+{
+	"storyName": "Jodent the dentist",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"pico",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"toothbrush",
+			"pico",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"clean-it",
+			"pico",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"the-meeting",
+			"pico",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"toothache",
+			"pico",
+			[
+				255,
+				255,
+				255
+			]
+		]
+	],
+	"weekName": "dajoli"
+}

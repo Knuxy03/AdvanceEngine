@@ -1,0 +1,16 @@
+[178[ [179[ [223[ [216[ |Breakfast| *100* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:senpai: !relaxed! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~     Done? Can i check your teeth now?
+:bf: !worried! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~         Bop beep boop.
+:senpai: !vomit! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic_loud# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~  Are You Serious?!
+:senpai: !vomit! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~       You're just wasting my time just for rap battling.
+:senpai: !why! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~         You're just like my first patient, tord...
+:bf: !relaxed! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~        Beb skdeeb
+:senpai: !bruh! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~        Arghh, fine! Just one more song.
+:senpai: !surprised! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~   If you ask for another rap battle..
+:senpai: !angry! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic_loud# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~  I'll make it worse for you
+:bf: !fear! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~           Beep..
+:gf-pixel: !fear! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~     Oh no...
+
+
+
+

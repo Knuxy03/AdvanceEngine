@@ -1,0 +1,53 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "jodent",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Okay, now let me check your teeth"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Beap bop"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "jodent",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "What?! Again"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "beep!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "jodent",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Uhh..."
+		},
+		{
+			"speed": 0.045,
+			"portrait": "jodent",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Ok..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Seriously bf? I thought you wanted to have a tooth extracted"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+[178[ [179[ [223[ [216[ |LunchboxScary| *100* =1= #classic#  <0.08< >4> (0.2( )5) {0.83{ }5} `hand_textbox` ~clickText~
+:senpai: !bruh! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~      Alright! Can i please check your teeth now??
+:bf: !weird! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~         Skebeb bap bip
+:bf: !smile! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~         Beep bop.
+:senpai: !sweating! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~  ...
+:senpai: !why! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~       So, you want me to check your teeth while rap battle?
+:senpai: !why! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~      ...
+:senpai: !angry! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~     You funny kid, i'll make it worse for you then.
+:senpai: !angry! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~     Since u just wasting my time just for stupid rap battle.
+:senpai: !sweating! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |true| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~  Hope it's dosen't hurt for you...BF.
+:bf: !surprised! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~    ??!!
+:gf-pixel: !smile! [Funkin[ ]65] *100* =0= +0+ -0- <0< >0> ;0.04; |false| #classic# ^pixelText^ !#FF000000! ?#FFFFFFFF? .. ~~  Ah shit, here we go again
+
+
+
+

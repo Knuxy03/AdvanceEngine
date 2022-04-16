@@ -1,0 +1,24 @@
+{
+	"dialogue_pos": "center",
+	"position": [
+		-70,
+		-110
+	],
+	"scale": 1.28,
+	"animations": [
+		{
+			"loop_name": "Cutscene1 Cut3",
+			"idle_offsets": [
+				0,
+				0
+			],
+			"idle_name": "Cutscene1 Cut3",
+			"anim": "Cut3",
+			"loop_offsets": [
+				0,
+				0
+			]
+		}
+	],
+	"image": "Cutscene1"
+}

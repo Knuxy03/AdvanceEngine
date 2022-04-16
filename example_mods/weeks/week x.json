@@ -1,0 +1,40 @@
+{
+	"storyName": "Bonus songs (Toothache Difficulty unavailable)",
+	"difficulties": "Hard",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "week2",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": false,
+	"songs": [
+		[
+			"Dentist",
+			"pico",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Toothache2",
+			"jodentex",
+			[
+				1,
+				1,
+				2
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekCharacters": [
+		"pico",
+		"bf",
+		"gf"
+	],
+	"weekName": "Goodbye"
+}
